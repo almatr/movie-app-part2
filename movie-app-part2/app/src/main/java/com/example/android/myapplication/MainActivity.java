@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 break;
             case 2:
                 Cursor cursor = getContentResolver().query(MoviesProvider.CONTENT_URI,
-                        null, null, null);
+                        null, null, null, null);
                 if (cursor.moveToFirst()) {
                     do {
                         String id = cursor.getString(0);
@@ -175,7 +175,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onPostResume();
         if (mMovies != null && mMenuPosition == 2) {
             Cursor cursor = getContentResolver().query(MoviesProvider.CONTENT_URI,
-                    null, null, null);
+                    null, null, null, null);
             if (cursor.getCount() != mMovies.size()) {
                 loadMovieData(mMenuPosition);
             }
