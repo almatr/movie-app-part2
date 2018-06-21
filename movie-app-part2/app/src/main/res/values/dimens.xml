@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="table_dimen">4dp</dimen>
+    <dimen name="line_max">4</dimen>
+    <dimen name="txt_size_expand">16sp</dimen>
+    <dimen name="expandable_bottom_margin">8dp</dimen>
+    <dimen name="recyler_height">200dp</dimen>
+    <dimen name="left_margin">28dp</dimen>
+    <integer name="gallery_columns">2</integer>
+</resources>

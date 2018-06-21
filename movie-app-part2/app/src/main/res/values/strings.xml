@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="spinner_title">Display By</string>
+    <string name="popular_url">https://api.themoviedb.org/3/movie/popular?</string>
+    <string name="topRated_url">https://api.themoviedb.org/3/movie/top_rated?</string>
+    <string name="movieById">https://api.themoviedb.org/3/movie/</string>
+    <string-array name="movies_array">
+        <item name="most_popular">Most Popular</item>
+        <item name="top_rated">Top Rated</item>
+        <item name="top_rated">My Favorites</item>
+    </string-array>
+</resources>
